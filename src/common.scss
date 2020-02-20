@@ -1,0 +1,18 @@
+.button {
+  background: #3498db;
+  width: 180px;
+  padding: 4px 0;
+  border-radius: 3px;
+
+  p {
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

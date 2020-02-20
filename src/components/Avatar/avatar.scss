@@ -1,0 +1,22 @@
+.avatar {
+    width: 180px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    font-family: 'Lato';
+    margin: 10px;
+    padding: 5px;
+
+    .image {
+        border-radius: 50%;
+        background-color: white;
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+}

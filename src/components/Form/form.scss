@@ -1,0 +1,43 @@
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+
+    input {
+        border: 0;
+        border-bottom: 2px solid #e3e3e3;
+        outline: 0;
+        font-size: 1.1rem;
+        margin-bottom: 12px;
+    }
+
+    label {
+      display: flex;
+      flex-direction: column;
+      font-size: .7rem;
+    }
+
+    .button {
+      margin-top: 15px;
+    }
+  }
+}
